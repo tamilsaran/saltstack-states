@@ -1,4 +1,4 @@
-{% if grains['os'] == 'CentOS'%}
+{% if grains['os'] == 'CentOS' %}
 tomcat:
   pkg:
     - installed
